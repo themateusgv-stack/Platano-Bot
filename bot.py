@@ -40,7 +40,8 @@ async def on_ready():
                 print(f"❌ Error en {archivo}: {e}")
 
 # START
-bot.run("MTQ5Mjk2MTM5NjE1NjI3MjkwMQ.GKQ4u0.BP-57837IjAdMR4QEZXILEq1ly-_--yACFprmk")
+import os
+bot.run(os.getenv("TOKEN"))
 
 
 
